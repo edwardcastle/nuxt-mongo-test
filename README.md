@@ -73,6 +73,7 @@ example
 MONGO_URI="mongodb://localhost:21017"
 or in case of hosted db
 MONGO_URI="mongodb+srv://user:password@cluster0.wnzfueo.mongodb.net/"
+
 ## SET UP DATABASE LOCALLY (OPTION 2)
 Download and install mongo server
 https://www.mongodb.com/try/download/
