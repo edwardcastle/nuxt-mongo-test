@@ -62,7 +62,7 @@ yarn preview
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-# SET UP DATABASE LOCALLY (OPTION 1)
+## SET UP DATABASE LOCALLY (OPTION 1)
 Download and install mongo server
 https://www.mongodb.com/try/download/
 
@@ -79,11 +79,11 @@ mongosh
 
 use "<NAME OF A DATABASE>"
 
-`exit terminal`
 ```
+`exit terminal`
 
 
-# SET UP HOSTED DATABASE (OPTION 2)
+## SET UP HOSTED DATABASE (OPTION 2)
 Open the link and create a db
 https://www.mongodb.com/basics/create-database
 
