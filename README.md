@@ -61,3 +61,36 @@ yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+# SET UP DATABASE LOCALLY (OPTION 1)
+Download and install mongo server
+https://www.mongodb.com/try/download/
+
+
+Download and install mongo shell
+https://www.mongodb.com/try/download/shell
+
+Create a database
+`open terminal`
+```bash
+sudo systemctl start mongod
+
+mongosh
+
+use "<NAME OF A DATABASE>"
+
+`exit terminal`
+```
+
+
+# SET UP HOSTED DATABASE (OPTION 2)
+Open the link and create a db
+https://www.mongodb.com/basics/create-database
+
+
+Create a .env file inside the root project and add this enviromment variable
+example
+
+MONGO_URI="mongodb://localhost:21017"
+or in case of hosted db
+MONGO_URI="mongodb+srv://user:password@cluster0.wnzfueo.mongodb.net/"
