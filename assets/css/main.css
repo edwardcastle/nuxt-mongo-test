@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+    @apply bg-blue-500 rounded-full text-white px-6 py-2 hover:bg-blue-400 transition ease-in font-semibold
+}
+
+button.danger {
+    @apply bg-red-500 hover:bg-red-400 transition ease-in font-semibold
+}
+
+button.secondary {
+    @apply bg-black hover:bg-gray-700 transition ease-in font-semibold
+}
+
+button:disabled {
+    @apply bg-gray-700 cursor-not-allowed
+}
+
+input[type='text'], input[type='date'], input[type='number'] {
+    @apply bg-gray-50 w-full p-2 rounded-full px-5 border-[1px]
+}
+
+label {
+    @apply font-medium ml-2
+}
+
+table th {
+    @apply pt-2
+}
+
+table td, th {
+    @apply h-[50px] border-[1px]
+}
+
+table tr:hover, td:hover {
+    @apply bg-blue-50 cursor-pointer
+}
